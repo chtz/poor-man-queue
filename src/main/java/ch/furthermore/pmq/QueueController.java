@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * <pre>
- * $ curl -X POST -H "Content-Type: application/json" -d "[]" http://localhost:4040/queues
- * accf184f-7106-44de-b63a-6e76d85fc63d
+ * $ curl -X POST -H "Content-Type: application/json" -d "[]" https://pmq.furthermore.ch/queues
+ * fb1b23a9-00ef-4032-a68e-9159adeb65e8
  * 
- * $ curl -X PUT -H "Content-Type: application/json" -d '["Halli","Hallo"]' http://localhost:4040/queues/accf184f-7106-44de-b63a-6e76d85fc63d
- * accf184f-7106-44de-b63a-6e76d85fc63d
+ * $ curl -X PUT -H "Content-Type: application/json" -d '["Halli","Hallo"]' https://pmq.furthermore.ch/queues/fb1b23a9-00ef-4032-a68e-9159adeb65e8
+ * fb1b23a9-00ef-4032-a68e-9159adeb65e8
  * 
- * $ curl http://localhost:4040/queues/accf184f-7106-44de-b63a-6e76d85fc63d
- * ["Kartoffel"]
+ * $ curl https://pmq.furthermore.ch/queues/fb1b23a9-00ef-4032-a68e-9159adeb65e8
+ * ["Halli","Hallo"]
  * </pre>
  */
 @Controller
