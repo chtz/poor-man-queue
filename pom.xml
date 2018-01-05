@@ -4,15 +4,18 @@
 	<groupId>ch.furthermore</groupId>
 	<artifactId>poor-man-queue</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.1.RELEASE</version>
 	</parent>
+
 	<properties>
 		<java.version>1.7</java.version>
 		<docker.image.prefix>dockerchtz</docker.image.prefix>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -20,6 +23,7 @@
 		</dependency>
 
 	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
